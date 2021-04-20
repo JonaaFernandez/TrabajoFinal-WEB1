@@ -1,0 +1,512 @@
+/*MOBILE*/
+
+
+/* INDEX */
+
+.encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0f3baa;
+    color: white;
+    align-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 5px;
+    align-self: center;
+}
+
+.listadatos {
+    color: whitesmoke;
+    font: bold;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: space-between;
+}
+
+li:hover {
+    border-radius: 4px;
+}
+
+.boton_menu {
+    color: beige;
+    border: solid green;
+    font: bold;
+    text-decoration: none;
+    text-align: center;
+    padding: 3px;
+    margin: 4px;
+    justify-content: center;
+    background-color: black;
+}
+
+ul.botonera a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    width: 100%;
+    color: black;
+    background-color: lightblue;
+    text-align: center;
+}
+
+ul.botonera {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+}
+
+ul.botonera.show {
+    display: flex;
+}
+
+.imagenppal {
+    border-color: darkolivegreen;
+    border-style: double;
+    background-image: url(../images/fondonuevo.jpg);
+    height: 300px;
+    width: 100%;
+    background-repeat: round;
+}
+
+.txtayudando {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    align-content: baseline;
+}
+
+
+/*VENTA Y ALQUILER*/
+
+.contenedorgrande {
+    width: 100%;
+    border-color: darkolivegreen;
+    border-style: double;
+    text-align: center;
+}
+
+.casa,
+.depto,
+.local,
+.terreno {
+    width: 85%;
+    border: double rgb(39, 39, 105) 8px;
+    margin: 8px;
+    padding: 1px;
+}
+
+h1,
+.botonera {
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    align-content: baseline;
+}
+
+
+/*CONTACTO*/
+
+.datosform {
+    align-items: flex-end;
+    text-align: left;
+    justify-content: baseline;
+    display: grid;
+    width: 40mm;
+}
+
+.formulario {
+    width: 100%;
+    height: 720px;
+    border: solid black 3px;
+    background-color: #71e0eb;
+    justify-content: space-between;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+}
+
+.imgcontacto {
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 3px;
+    margin: 12px;
+    width: 94%;
+}
+
+.completo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    border: double darkolivegreen;
+    text-align: justify;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.textoderecha {
+    text-align: center;
+}
+
+.img_captcha {
+    margin: auto;
+    margin-right: 30px;
+    width: 20%;
+    height: 100px;
+    background-image: url(../images/img_captcha.jpg);
+    padding-right: 180px;
+}
+
+
+/*INVERSISONESS*/
+
+.contenedorgrande {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 98%;
+    margin: 0px;
+    padding: 1px;
+    border-color: darkolivegreen;
+    border-style: double;
+}
+
+td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table,
+th,
+td,
+tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: justify;
+}
+
+th {
+    background-color: lightgreen;
+    color: mediumblue;
+    font-style: italic;
+    text-align: center;
+}
+
+table {
+    border-spacing: 4px;
+    min-width: 180px;
+    margin-left: 0px;
+}
+
+.cuadrodatos {
+    border: double rgb(39, 39, 105) 8px;
+    margin: 2px;
+    width: 100%;
+    padding: 10px;
+}
+
+.valores {
+    border: double rgb(39, 39, 105) 8px;
+    margin: 2px;
+    width: 100%;
+    padding: 10PX;
+}
+
+h1 {
+    color: rgb(69, 69, 187);
+    text-align: center;
+}
+
+footer {
+    justify-content: center;
+    text-align: center;
+    align-content: baseline;
+}
+
+.form-Ingresos {
+    align-items: center;
+    text-align: justify;
+    justify-content: flex-start;
+    display: grid;
+    width: 30mm;
+}
+
+.textobusqueda {
+    border: double rgb(39, 39, 105)10px;
+}
+
+#Ingresar,
+#ingresarTres,
+#obtenerDatos,
+#modificarDatos {
+    display: flex;
+    margin-left: 210px;
+    margin-top: -20px;
+}
+
+#indicacionBusqueda {
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------------------------------------*/
+
+@media only screen and (min-width: 660px) {
+    /* TABLET */
+    /*INDEX*/
+    .logo {
+        margin-top: 5px;
+    }
+    .boton_menu {
+        display: none;
+    }
+    ul.botonera,
+    .botonera {
+        flex-direction: row;
+        text-decoration: none;
+        display: flex;
+    }
+    ul.botonera.show {
+        display: flex;
+    }
+    .botonera {
+        list-style: none;
+        border: 20px;
+        justify-content: space-around;
+        font-size: 30px;
+        margin: 0px;
+        flex-wrap: wrap;
+        color: black;
+        background-color: lightblue;
+    }
+    .encabezado {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #0f3baa;
+        color: white;
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+    .listadatos {
+        color: whitesmoke;
+        font: bold;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    li:hover {
+        border-radius: 4px;
+    }
+    .imagenppal {
+        border-color: darkolivegreen;
+        border-style: double;
+        background-image: url(../images/fondonuevo.jpg);
+        height: 700px;
+        width: 100%;
+        background-repeat: round;
+    }
+    .txtayudando {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+        text-align: center;
+    }
+    footer {
+        justify-content: center;
+        text-align: center;
+        align-content: baseline;
+    }
+    /*VENTA Y ALQUILER*/
+    .contenedorgrande {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 91.5%;
+        margin: 0px;
+        padding: 50px;
+        border-color: darkolivegreen;
+        border-style: double;
+    }
+    .izqarriba {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 2px;
+    }
+    .derarriba {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 2px;
+    }
+    .izqabajo {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 10px;
+    }
+    .derabajo {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 10px;
+    }
+    .casa {
+        margin: 10px;
+        width: 375px;
+        border: solid black 3px;
+    }
+    .depto {
+        margin: 10px;
+        width: 375px;
+        border: solid black 3px;
+    }
+    .local {
+        margin: 10px;
+        width: 375px;
+        border: solid black 3px;
+    }
+    .terreno {
+        margin: 10px;
+        width: 375px;
+        border: solid black 3px;
+    }
+    h1 {
+        color: rgb(69, 69, 187);
+        text-align: center;
+    }
+    footer {
+        justify-content: center;
+        text-align: center;
+        align-content: baseline;
+    }
+    /*CONTACTO*/
+    .formulario {
+        width: 40%;
+        height: 720px;
+        border: solid black 3px;
+        background-color: #71e0eb;
+        justify-content: space-between;
+        margin: 10px;
+        padding-left: 10px;
+        padding-bottom: 4px
+    }
+    .datosform {
+        align-items: flex-end;
+        text-align: left;
+        justify-content: baseline;
+        display: grid;
+        width: 40mm;
+    }
+    .imgcontacto {
+        display: flex;
+        flex-wrap: wrap;
+        border: solid black 3px;
+        margin: 12px;
+    }
+    .completo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: white;
+        border: double darkolivegreen;
+        text-align: justify;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .textoderecha {
+        text-align: center;
+    }
+    .img_captcha {
+        width: 60%;
+        height: 100px;
+        background-image: url(../images/img_captcha.jpg);
+        margin-top: 0px;
+        padding-right: 70px;
+        background-repeat: no-repeat;
+    }
+    /*INVERSIONESS*/
+    .contenedorgrande {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 98%;
+        margin: 0px;
+        padding: 4px;
+        border-color: darkolivegreen;
+        border-style: double;
+    }
+    .cuadrodatos {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 0px;
+        width: 40%;
+        padding: 0px;
+        padding-left: 10px;
+    }
+    .valores {
+        border: double rgb(39, 39, 105) 8px;
+        margin: 2px;
+        width: 50%;
+        padding: 5px;
+    }
+    table {
+        border-spacing: 40px;
+        min-width: 180px;
+        margin-left: 2px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+        align-self: center;
+    }
+    td {
+        text-align: center;
+    }
+    .form-Ingresos {
+        align-items: center;
+        text-align: justify;
+        justify-content: flex-start;
+        display: grid;
+        width: 100%;
+        align-content: center;
+    }
+    #busquedadesde {
+        width: 70px;
+    }
+    #busquedahasta {
+        width: 70px;
+    }
+    footer {
+        justify-content: center;
+        text-align: center;
+        align-content: baseline;
+    }
+    .textobusqueda {
+        border: double rgb(39, 39, 105)10px;
+        margin-right: 9px;
+        margin-bottom: 0px;
+    }
+    #Ingresar,
+    #ingresarTres,
+    #obtenerDatos,
+    #modificarDatos {
+        display: flex;
+        margin-left: 320px;
+        margin-top: -20px;
+    }
+    #indicacionBusqueda {
+        font-weight: bolder;
+        font-family: sans-serif;
+    }
+}
