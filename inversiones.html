@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones</title>
+    <link rel="stylesheet" href="css/estilocomun.css">
+    <script src="js/botones.js"></script>
+    <script src="js/tabladin.js"></script>
+
+</head>
+
+<body>
+    <header class="encabezado">
+
+        <div class="logo">
+            <img src="images/logoinmob.jpg" alt="logo de la inmobiliaria" srcset="">
+        </div>
+        <div>
+            <ul class="listadatos">
+                <li>San Martin 255 </li>
+                <li>Tel: 249-4429720</li>
+                <li>E-mail: contacto@tuinmobiliaria.com</li>
+                <li><img src="images/logoface.jpg" alt="logo facebook" srcset=""> facebook.com/tuinmobiliaria</li>
+                <li><img src="images/logoinstaa.jpg" alt="logo insatk" srcset=""> instagram.com/tuinmobiliaria</li>
+            </ul>
+
+        </div>
+    </header>
+
+    <div class="boton_menu"><a>MENU</a></div>
+
+    <nav>
+        <ul class="botonera">
+            <li> <a class="botones" href="index.html">HOME</a></li>
+            <li> <a class="botones" href="ventas.html">VENTAS</a></li>
+            <li> <a class="botones" href="alquileres.html">ALQUILERES</a></li>
+            <li> <a class="botones" href="contacto.html">CONTACTO</a></li>
+            <li> <a class="botones" href="inversiones.html">INVERSIONES</a></li>
+        </ul>
+
+    </nav>
+
+    <div class="contenedorgrande">
+
+        <div class="cuadrodatos">
+            <h1>INGRESO DE DATOS</h1>
+
+            <div class="form-Ingresos">
+                <label>Zona:</label>
+                <input type="text" placeholder="Introduce la Zona..." required class="form-control" id="zonaName"
+                    Name="zona">
+            </div>
+            <button id="Ingresar"> Ingresar Datos </button>
+            <div class="form-Ingresos">
+                <label>Fideicomiso:</label>
+                <input type="number" value=0 required class="form-control" id=fideicomisoName name="fideicomisos">
+            </div>
+            <button id="modificarDatos"> Modificar Datos </button>
+            <div class="form-Ingresos">
+                <label>Dtos. al Pozo:</label>
+                <input type="number" value=0 required class="form-control" id=pozoName name="pozo">
+            </div>
+            <button id="ingresarTres"> Ingresar 3 Elementos</button>
+            <div class="form-Ingresos">
+                <label>Modulo:</label>
+                <input type="number" value=0 required class="form-control" id=moduloName name="modulo">
+            </div>
+
+            <button id="obtenerDatos"> Obtener Datos </button>
+            <p></p>
+
+            <div>
+
+                <aside>
+                    <span id="indicacionBusqueda"> Busqueda por valor </span>
+                    <p class="textobusqueda">
+                        Buscar desde U$S <input id="busquedadesde" type="search" name="busqueda"> hasta U$S
+                        <input type="search" name="busqueda" id="busquedahasta">
+                        <button id="busqueda"> Buscar </button>
+                    </p>
+
+                </aside>
+            </div>
+
+        </div>
+        <div class="valores">
+            <div clas="superior">
+                <div>
+                    <h1>
+                        CUADRO DE VALORES
+                    </h1>
+                    <div id="PadredeTabla">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>"Zona"</th>
+                                    <th>"Fideic. Inmob."</th>
+                                    <th>"Deptos al Pozo"</th>
+                                    <th>"Venta por Modulos"</th>
+                                    <th>"Modificar"</th>
+                                    <th>"Eliminar"</th>
+                                </tr>
+                            <tbody id="t-body"></tbody>
+                            </thead>
+                        </table>
+                    </div>
+
+
+
+
+                    <p>Le ofrecemos una amplia gama de opciones, segun sus requerimientos y posibilidades, para lograr
+                        una excelente inversion.
+                        Podra optar entre Fideicomisos al costo en los que podra acceder a departamentos de categoria al
+                        valor del costo de construccion, a departamentos en complejos a bajo costo , u optar por adquir
+                        modulos de construccion por metro cuadrado, que le asegugraran renta inmediata. </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2020 - Tu Inmobiliaria, Estudio inmobiliario en Tandil - Todos los derechos reservados</p>
+    </footer>
+
+
+
+</body>
+
+
+</html>
